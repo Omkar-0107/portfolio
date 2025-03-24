@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omkar Kodulkar | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico">
+
+</head>
+<body>
+
+    <header>
+        <h1 class="typing-animation">Omkar Kodulkar Portfolio...</h1>
+    </header>
+
+    <!-- Nav Toggle Button (Only visible on mobile) -->
+    <button class="nav-toggle" aria-label="Toggle Navigation">☰</button>
+    
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am <strong>Omkar Kodulkar</strong> and i am <strong>Motivated B.Tech (CSE) graduate</strong> with a passion for <strong>technology, innovation, and problem-solving.</strong>  
+        I specialize in <strong>software development, web technologies, artificial intelligence, and cloud computing.</strong>  
+        My goal is to <strong>build scalable, efficient, and impactful software solutions</strong> that can improve everyday life and businesses.</p>
+        
+        <p>Throughout my academic and internship experiences, I have worked on multiple <strong>real-world projects</strong> including AI-based stock market prediction, smart traffic management, and cybersecurity simulations.</p>
+    
+        <p><strong>My mission:</strong> To continuously learn, innovate, and contribute to cutting-edge technologies that solve real-world problems.</p>
+    </section>
+    
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python Development (Pandas, NumPy, TensorFlow)</li>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>Data Analysis & Visualization (Power BI, SQL)</li>
+            <li>Database Management (MySQL, PostgreSQL)</li>
+            <li>Cloud Computing (AWS)</li>
+            <li>Cyber Security & Ethical Hacking</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Pay-Dit</h3>
+                <p>Automated savings through transactions. (Copyright Certified)</p>
+            </div>
+            <div class="project-card">
+                <h3>Stock-Market Prediction</h3>
+                <p>AI-driven financial insights for smarter investment decisions.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project SATARA</h3>
+                <p>A travel website showcasing attractions in Satara with location details.</p>
+            </div>
+            <div class="project-card">
+                <h3>MOCKSCRIPT</h3>
+                <p>An AI-powered interview preparation web app analyzing resume keywords.</p>
+            </div>
+            <div class="project-card">
+                <h3>Smart Traffic System</h3>
+                <p>AI-powered traffic management system to optimize city traffic flow.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" action="save_contact.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
